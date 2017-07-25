@@ -1,10 +1,10 @@
 $(document).ready(function () {
-
-    initializeViz()
+  initializeViz()
 });
 
 function initializeViz() {
-	var containerDiv = document.getElementById("tbContainer"),
+var containerDiv = document.getElementById("tbContainer");
+if(containerDiv) {
     url = "http://public.tableau.com/views/RegionalSampleWorkbook/Storms",
     options = {
         hideTabs: true,
@@ -12,7 +12,7 @@ function initializeViz() {
             console.log("Run this code when the viz has finished loading.");
         }
     };
-
-    var viz = new tableau.Viz(containerDiv, url, options); 
+    var viz = new tableau.Viz(containerDiv, url, options);
     // Create a viz object and embed it in the container div.
+  }
 }
