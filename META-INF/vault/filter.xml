@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/etc/designs/trainingChallengesDesign"/>
+    <filter root="/apps/training-challenges"/>
+    <filter root="/etc/clientlibs/training-challenges"/>
+    <filter root="/content/training-challenges"/>
+</workspaceFilter>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:designPath="/etc/designs/trainingChallengesDesign"
+        cq:lastModified="{Date}2017-07-24T11:20:26.292-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training-challenges/templates/page-content"
+        jcr:lastModified="{Date}2017-07-24T11:20:26.290-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="training-challenges/components/page-content">
+        <image
+            jcr:lastModified="{Date}2017-07-24T11:20:26.290-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+    <tableau/>
+</jcr:root>
