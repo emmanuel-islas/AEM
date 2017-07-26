@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-07-26T13:46:46.393-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training-challenges/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Collapse"
+        sling:resourceType="training-challenges/components/page-content">
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <collapse_content
+                jcr:created="{Date}2017-07-26T13:21:44.378-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-26T13:46:46.392-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training-challenges/components/collapse-content"
+                custom-textarea="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                custom-title="Click here"/>
+        </content>
+    </jcr:content>
+</jcr:root>
